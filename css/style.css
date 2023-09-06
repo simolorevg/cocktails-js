@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*LAYOUT*/
+body {
+    font-family: sans-serif;
+}
+
+.none {
+    display: none;
+}
+
+/*CONTAINER*/
+.my-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-container img {
+    width: 200px;
+}
+
+/*COCKTAILS BUTTONS*/
+#cocktails-btns {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cocktail-btn {
+    width: calc(100% / 3 - 20px);
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #ccdbd9;
+    color: #383a45;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/*COCKTAIL GLASS SECTION*/
+#cocktail-container {
+    width: 60%;
+    border: 2px solid black;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 270px;
+}
+
+#cocktail-glass {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    clip-path: polygon(17.5% 100%, 0% 0%, 100% 0%, 82.5% 100%);
+    background-color: aqua;
+}
