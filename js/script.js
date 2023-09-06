@@ -22,7 +22,7 @@ let cocktailsArray = [
     },
     {
         "name": "Margarita",
-        "img": '',
+        "img": 'img/Margarita.webp',
         "ingredients": [
             {
                 "name": "Cointreau",
@@ -43,6 +43,7 @@ let cocktailsArray = [
     },
     {
         "name": "Screwdriver",
+        "img": 'img/Screwdriver.webp',
         "ingredients": [
             {
                 "name": "orange juice",
@@ -63,6 +64,7 @@ let cocktailsArray = [
     },
     {
         "name": "Bloody Mary",
+        "img": 'img/Bloody-Mary.webp',
         "ingredients": [
             {
                 "name": "Pepper vodka",

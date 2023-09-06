@@ -16,6 +16,7 @@ body {
 /*CONTAINER*/
 .my-container {
     width: 100%;
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -24,6 +25,32 @@ body {
 
 .my-container img {
     width: 200px;
+}
+
+#cocktail-result {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    z-index: 999;
+}
+
+.btn-close {
+    background-color: red;
+    border-color: red;
+    width: 80px;
+    padding: 5px;
+    margin-top: 10px;
+    cursor: pointer;
 }
 
 /*COCKTAILS BUTTONS*/
