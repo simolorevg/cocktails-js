@@ -13,6 +13,10 @@ body {
     display: none;
 }
 
+.flex {
+    display: flex;
+}
+
 /*CONTAINER*/
 .my-container {
     width: 100%;
@@ -27,12 +31,11 @@ body {
     width: 200px;
 }
 
-#cocktail-result {
+.cocktail-result {
     position: absolute;
     top: 50%;
     left: 50%;
     width: 50%;
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -44,12 +47,18 @@ body {
     z-index: 999;
 }
 
+.cocktail-img {
+    max-width: 200px;
+}
+
 .btn-close {
     background-color: red;
     border-color: red;
-    width: 80px;
+    width: 40px;
     padding: 5px;
     margin-top: 10px;
+    text-align: center;
+    color: white;
     cursor: pointer;
 }
 
